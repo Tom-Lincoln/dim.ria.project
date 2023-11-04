@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SaleTests" verbose="1">
+    <test name="Suite1">
+        <classes>
+            <class name="dimria.tests.addform.positive.sale.SaleApartmentTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleRoomTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleHouseTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleHousePartTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleHouseTownhouseTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleCommercialOfficeTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleCommercialPremisesTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleCommercialSpecialPremisesTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleLandResidentialDevelopmentTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleLandCommercialPurposesTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleLandAgriculturalPurposesTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleGarageTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleGaragePlaceCooperativeTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleGaragePlaceCarParkTest"/>
+            <class name="dimria.tests.addform.positive.sale.SaleGarageParkingTest"/>
+        </classes>
+    </test>
+</suite>

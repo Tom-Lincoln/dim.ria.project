@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RentLongTests" verbose="1">
+    <test name="Suite1">
+        <classes>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongApartmentTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongRoomTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongHouseTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongHousePartTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongHouseTownhouseTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongCommercialOfficeTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongCommercialPremisesTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongCommercialSpecialPremisesTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongLandResidentialDevelopmentTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongLandCommercialPurposesTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongLandAgriculturalPurposesTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongGarageTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongGaragePlaceCooperativeTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongGaragePlaceCarParkTest"/>
+            <class name="dimria.tests.addform.positive.rent.longs.RentLongGarageParkingTest"/>
+
+        </classes>
+    </test>
+</suite>

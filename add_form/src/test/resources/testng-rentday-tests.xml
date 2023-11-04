@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RentDayTests" verbose="1">
+    <test name="Suite1">
+        <classes>
+            <class name="dimria.tests.addform.positive.rent.day.RentDayApartmentTest"/>
+            <class name="dimria.tests.addform.positive.rent.day.RentDayRoomTest"/>
+            <class name="dimria.tests.addform.positive.rent.day.RentDayHouseTest"/>
+            <class name="dimria.tests.addform.positive.rent.day.RentDayHousePartTest"/>
+            <class name="dimria.tests.addform.positive.rent.day.RentDayHouseTownhouseTest"/>
+        </classes>
+    </test>
+</suite>
